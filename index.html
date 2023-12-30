@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="header">
+        <h2>Calc</h2>
+        <button disabled="disabled">Theme</button>
+      </div>
+      <div class="textbox">
+        <input
+          type="text"
+          name=""
+          id="txt_output"
+          readonly
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="numpad">
+        <div class="numpad2">
+          <div class="row btn-wrap">
+            <button id="7" type="button">7</button
+            ><button id="8" type="button">8</button
+            ><button id="9" type="button">9</button
+            ><button id="del" type="button">Del</button>
+          </div>
+          <div class="row">
+            <button id="4" type="button">4</button
+            ><button id="5" type="button">5</button
+            ><button id="6" type="button">6</button
+            ><button id="+" type="button">+</button>
+          </div>
+          <div class="row">
+            <button id="1" type="button">1</button
+            ><button id="2" type="button">2</button
+            ><button id="3" type="button">3</button
+            ><button id="-" type="button">-</button>
+          </div>
+          <div class="row">
+            <button id="." type="button">.</button
+            ><button id="0" type="button">0</button
+            ><button id="/" type="button">/</button
+            ><button id="*" type="button">x</button>
+          </div>
+          <div class="row">
+            <button id="reset" type="reset">RESET</button
+            ><button id="e" type="button">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
